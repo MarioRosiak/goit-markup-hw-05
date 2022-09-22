@@ -100,6 +100,7 @@ h4 {
 }
 .container {
   width: 1200px;
+  display: block;
 }
 
 .link {
@@ -210,7 +211,9 @@ h4 {
   height: 50px;
   color: var(--White);
 }
-
+.btn-services:hover{
+  background-color: #1187e8e4;
+}
 .box {
   background-color: var(--Withe);
   padding-bottom: 1px;
@@ -482,6 +485,9 @@ h4 {
   justify-content: center;
   margin: 0px;
 }
+.section-gray:hover{
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 
 .menu-box-name {
   font-weight: 700;
@@ -508,8 +514,6 @@ h4 {
   margin: 94px 0 0 0;
   display: flex;
   column-gap: 30px;
-  justify-content: center;
-  padding: 16px;
 }
 .container-icon-item {
   width: 270px;
@@ -612,17 +616,4 @@ cursor: pointer;
 }
 .icon-client:hover{
   fill: var(--Light-Blue);
-}
-/* home work 05 */
-.links-curr-hl::after {
-  position: absolute;
-  display: block;
-  content: "";
-  top: 44px;
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
-  background-color: var(--Light-Blue);
-  cursor: unset;
-  pointer-events: none;
 }
