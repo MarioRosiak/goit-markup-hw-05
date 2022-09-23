@@ -30,7 +30,7 @@
             >Web<span class="studio-item">Studio</span></a
           >
           <nav class="link-item">
-            <a href="./index.html" class="link">Agencja </a>
+            <a href="./index.html" class="link color-line">Agencja </a>
             <a href="./portfolio.html" class="link">Portfolio</a>
             <a href="./index.html" class="link">Kontakt</a>
           </nav>
@@ -57,7 +57,7 @@
           EFEKTYWNE ROZWIĄZANIA <br />DLA WASZEGO BIZNESU
         </h1>
         <div class="button">
-          <button class="btn-services">Zamów usługe</button>
+          <button class="btn-services" data-modal-open>Zamów usługe</button>
         </div>
       </section>
       <section class="proper-text">
@@ -451,5 +451,20 @@
         </div>
       </section>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <div class="close" data-modal-close>
+          <svg
+            class="icon-close"
+            viewBox="0 0 18 18"
+            height="30px"
+            width="30px"
+          >
+            <use href="./images/icons.svg"></use>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
