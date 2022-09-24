@@ -109,6 +109,7 @@ h4 {
   font-weight: 500;
   font-size: 14px;
   padding-right: 46px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link:hover,
@@ -128,6 +129,7 @@ h4 {
   font-weight: 500;
   font-size: 14px;
   color: var(--Grey);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mail-item:hover,
@@ -141,6 +143,7 @@ h4 {
   font-weight: 500;
   font-size: 14px;
   color: var(--Grey);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .tel-item:hover,
@@ -212,6 +215,7 @@ h4 {
   height: 50px;
   color: var(--White);
   cursor: pointer;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn-services:hover{
   background-color: #1187e8e4;
@@ -500,6 +504,7 @@ h4 {
   justify-content: center;
   margin: 0px;
   cursor: pointer;
+
 }
 .section-gray:hover{
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
@@ -586,6 +591,7 @@ h4 {
   gap: 10px;
   flex-direction: row;
   margin-bottom:30px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .white-writing_footer{
   margin: 0;
@@ -609,6 +615,7 @@ height: 44px;
 border-radius: 50%;
 background-color: var(--White);
 cursor: pointer;
+transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-media-icon-footer{
   fill: var(--White);
@@ -617,6 +624,7 @@ cursor: pointer;
   border-radius: 50%;
   background-color: var(--Black-social-media);
   cursor: pointer;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-media-icon:hover,
 .social-media-icon-footer:hover{
@@ -629,6 +637,7 @@ cursor: pointer;
   height: 60;
   fill: #AFB1B8;
   cursor: pointer;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .client-box:hover{
   border: 1px solid var(--Light-Blue);
@@ -719,4 +728,6 @@ cursor: pointer;
   cursor: pointer;
   padding: 6px;
 }
-
+.animation > {
+transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
