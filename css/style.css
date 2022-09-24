@@ -42,12 +42,14 @@ main {
 }
 
 .item-web {
+  font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   color: var(--Light-Blue);
 }
 
 .studio-item {
+  font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
@@ -56,6 +58,7 @@ main {
 }
 
 .webstudio-item {
+  font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
@@ -124,18 +127,17 @@ h4 {
   font-weight: 500;
   font-size: 14px;
   color: var(--Grey);
-}
-
-.mail-item {
-  font-weight: 500;
-  font-size: 14px;
-  color: var(--Grey);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mail-item:hover .icon-mail-tel,
+.tel-item:hover .icon-mail-tel{
+ fill: var(--Light-Blue);
 }
 
 .mail-item:hover,
 .mail-item:focus {
   color: var(--Light-Blue);
+  fill: var(--Light-Blue);
 }
 
 .tel-item {
@@ -146,10 +148,14 @@ h4 {
   color: var(--Grey);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.icon:hover,
 .tel-item:hover,
-.tel-item:focus {
+.tel-item:focus,
+.icon-mail-tel:hover,
+.icon-mail-tel:focus {
   color: var(--Light-Blue);
+  fill: var(--Light-Blue);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .bisnes-item {
@@ -303,6 +309,7 @@ h4 {
 }
 
 .studio-item-bottom {
+  font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
@@ -487,6 +494,7 @@ h4 {
 }
 
 .box-set {
+  position: relative;
   display: flex;
   gap: 30px;
   column-gap: 30px;
@@ -494,9 +502,11 @@ h4 {
   margin: 0px;
   width: 1600px;
   padding-left: 215px;
+  
 }
 
 .section-gray {
+  position: relative;
   display: flex-box;
   flex-basis: calc((100% -2 * 30px) / 3);
   max-width: 370px;
@@ -505,8 +515,8 @@ h4 {
   border: 1px solid var(--Gray-Shadow);
   justify-content: center;
   margin: 0px;
-  cursor: pointer;
-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;  
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .section-gray:hover{
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
@@ -561,12 +571,8 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: var(--Grey);
   margin-right: 10px;
 }
-.icon-mail-tel:hover,
-.icon:hover {
-  fill: var(--Light-Blue);
-}
 .client-container {
-  display: flex;
+  display: flex ;
   justify-content: center;
   justify-items: center;
   padding: 50px 0 94px 0;
@@ -669,9 +675,9 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin: 0;
 }
 .roll-up {
-  box-sizing: border-box;
   position: absolute;
-  bottom: 275px;
+  box-sizing: border-box;
+  bottom:100px;
   width: 370px;
   height: 294px;
   overflow: hidden;
@@ -730,7 +736,9 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: #000000;
   cursor: pointer;
   padding: 6px;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.animation > {
-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.close:hover{
+  border: 1px solid rgba(152, 24, 24, 0.361);
+  fill: var(--Grey);
 }
