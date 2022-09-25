@@ -369,7 +369,7 @@ h4 {
   display: flex;
   flex-basis: calc((100% -3 * 30px) / 4);
   justify-content: center;
-  margin: 0px;
+  margin: 0;
 }
 
 .proper-text-set {
@@ -377,7 +377,7 @@ h4 {
   display: flex;
   padding: 94px 0px 0px 0px;
   justify-content: center;
-  margin: 0px;
+  margin: 0;
 }
 
 .proper-text-item {
