@@ -369,7 +369,7 @@ h4 {
   display: flex;
   flex-basis: calc((100% -3 * 30px) / 4);
   justify-content: center;
-  margin: 0;
+  margin: 0px;
 }
 
 .proper-text-set {
@@ -377,7 +377,7 @@ h4 {
   display: flex;
   padding: 94px 0px 0px 0px;
   justify-content: center;
-  margin: 0;
+  margin: 0px;
 }
 
 .proper-text-item {
@@ -677,7 +677,7 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .roll-up {
   position: absolute;
   box-sizing: border-box;
-  bottom:98px;px;
+  bottom:100px;
   width: 370px;
   height: 294px;
   overflow: hidden;
